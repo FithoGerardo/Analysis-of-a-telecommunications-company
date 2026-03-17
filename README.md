@@ -27,6 +27,10 @@ The goal of this project is to analyze how customers actually use mobile service
 
 ---
 
+# Main notebook path
+
+### `notebooks/Project-ConnectaTel_Gerardo_Olm.ipynb`
+
 # Datasets
 
 The project uses three datasets.
