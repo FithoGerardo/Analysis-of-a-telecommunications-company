@@ -1,6 +1,8 @@
 # Analysis-of-a-telecommunications-company
 # ConnectaTel – Customer Usage Analysis
 
+[Go back to the portfolio](https://fithogerardo.github.io/Gerardos_Portfolio/)
+
 An exploratory data analysis project focused on understanding **mobile service usage patterns** for ConnectaTel customers.
 
 The project analyzes **calls and SMS behavior**, detects **outliers**, and builds **customer segments based on usage patterns** to support data-driven business decisions.
@@ -245,3 +247,7 @@ The notebook is organized sequentially for easy replication.
 
 Gerardo Olmedo – ConnectaTel
 ---
+
+[Go back to the portfolio](https://fithogerardo.github.io/Gerardos_Portfolio/)
+
+
