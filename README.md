@@ -245,7 +245,7 @@ The notebook is organized sequentially for easy replication.
 
 ## Author
 
-Gerardo Olmedo – ConnectaTel
+Gerardo Olmedo – Data Analyst
 ---
 
 [Go back to the portfolio](https://fithogerardo.github.io/Gerardos_Portfolio/)
