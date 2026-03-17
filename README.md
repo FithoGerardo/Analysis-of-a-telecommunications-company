@@ -91,7 +91,12 @@ The project follows a structured data analysis process.
 
 ---
 
-## 2️. Data Cleaning
+## 1.1. Working with copies
+- Avoid mistakes in original datasets
+
+---
+
+## 2. Data Cleaning
 - handling missing values
 - fixing invalid age values
 - converting date columns
@@ -99,7 +104,7 @@ The project follows a structured data analysis process.
 
 ---
 
-## 3️. User Usage Profile
+## 3. User Usage Profile
 Usage metrics were aggregated per user:
 
 - total calls
@@ -114,10 +119,21 @@ This created a **user-level usage profile**.
 
 Distribution analysis for:
 
-- age
-- number of calls
-- number of messages
-- call minutes
+- **Age**
+
+![edad_por_plan](images/edad_por_plan.png)
+
+- **Number of calls**
+
+![mensajes_por_plan](images/mensajes_por_plan.png)
+
+- **Number of messages**
+
+![llamadas_por_plan](images/llamadas_por_plan.png)
+
+- **Call minutes**
+
+![minutos_llamada_por_plan](images/minutos_llamada_por_plan.png)
 
 Distributions were compared **between Basic and Premium plans**.
 
@@ -132,10 +148,21 @@ Outliers were identified using:
 
 Variables analyzed:
 
-- age
-- call counts
-- message counts
-- call minutes
+- **Age**
+
+![boxplot_age](images/boxplot_age.png)
+
+- **Call counts**
+
+![boxplot_cant_mensajes](images/boxplot_cant_mensajes.png)
+
+- **Message counts**
+
+![boxplot_cant_llamadas](images/boxplot_cant_llamadas.png)
+
+- **Call minutes**
+
+![boxplot_cant_minutos_llamada](images/boxplot_cant_minutos_llamada.png)
 
 This helps detect:
 
@@ -147,67 +174,39 @@ This helps detect:
 
 ## 6️. Customer Segmentation
 
-Users were classified into three usage segments:
+Users were classified into two categories:
 
-- **Low usage**
-- **Medium usage**
-- **High usage**
+- **Age**
 
-Segmentation was based on the number of **calls and messages per user**.
+![usuarios_por_grupo_uso](images/usuarios_por_grupo_uso.png)
+  
+- **Usage**
+
+![usuarios_por_grupo_edad](images/usuarios_por_grupo_edad.png)
+
 
 This allows identifying **high-value customer groups**.
 
 ---
 
-# Example Visualizations
-
-Example visual outputs generated during the analysis.
-
-### Distribution of call minutes by plan
-![Call minutes distribution](images/minutes_distribution.png)
-### Message usage by plan
-![Messages distribution](images/messages_distribution.png)
-### Customer usage segmentation
-![Usage segmentation](images/usage_segmentation.png)
-
 # How to Run the Project
-
-Requirements
-
-Install dependencies:
-
-`pip install pandas numpy matplotlib seaborn jupyter`
 
 Run in Google Colab
 
 1. Open Google Colab
 2. Upload the notebook
 
-`connectatel_analysis.ipynb`
+`notebooks/Project-ConnectaTel_Gerardo_Olm.ipynb`
 
 3. Upload datasets:
 
-`plans.csv
-users_latam.csv
-usage.csv`
+`plans.csv`
+
+`users_latam.csv`
+
+`usage.csv`
 
 4. Run the notebook cells sequentially.
-
----
-
-## Run Locally
-
-Clone the repository:
-
-`git clone https://github.com/yourusername/connectatel-analysis.git`
-
-Navigate to the project folder:
-
-`cd connectatel-analysis`
-
-Launch Jupyter Notebook:
-
-`jupyter notebook`
 
 ---
 
@@ -238,6 +237,7 @@ The notebook is organized sequentially for easy replication.
 
 ---
 
-Author
+## Author
 
 Gerardo Olmedo – ConnectaTel
+---
